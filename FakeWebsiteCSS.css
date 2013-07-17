@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+body {
+background: url('backgroundstriped.png') center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+}
+
+#box {
+	border:1px solid black;
+	width:200px;
+	height:200px;
+}

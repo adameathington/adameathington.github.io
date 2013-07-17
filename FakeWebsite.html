@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="FakeWebsiteCSS.css" rel="stylesheet" type="text/css" />
+<link href="FakeWebsiteJava.js" rel="stylesheet' type="text/javascript" />
+</head>
+
+<body>
+
+<img src="../MadalynWebsit/Madalyn1.jpg" alt="rotating image" width="400" height="300" id="rotator">
+
+<div id="wrapper">
+<div id="box">
+<p>This is some text in the box</p>
+</div>
+</div>
+
+
+<script type="text/javascript"></a>
+(function() {
+    var rotator = document.getElementById('rotator');  // change to match image ID
+    var imageDir = '../MadalynWebsit/';                          // change to match images folder
+    var delayInSeconds = 5;                            // set number of seconds delay
+    // list image names
+    var images = ['../MadalynWebsit/deadgirls2.jpg', 'image3.jpg', 'image4.jpg', 'image1.jpg'];
+
+    // don't change below this line
+    var num = 0;
+    var changeImage = function() {
+        var len = images.length;
+        rotator.src = imageDir + images[num++];
+        if (num == len) {
+            num = 0;
+        }
+    };
+    setInterval(changeImage, delayInSeconds * 1000);
+})();
+</script>
+
+
+</div>
+</body>
+</html>
