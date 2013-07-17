@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+body {
+	background: rgb(29,28,70); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(29,28,70,1) 0%, rgba(29,28,70,1) 77%, rgba(109,136,183,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(29,28,70,1)), color-stop(77%,rgba(29,28,70,1)), color-stop(100%,rgba(109,136,183,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(29,28,70,1) 0%,rgba(29,28,70,1) 77%,rgba(109,136,183,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(29,28,70,1) 0%,rgba(29,28,70,1) 77%,rgba(109,136,183,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(29,28,70,1) 0%,rgba(29,28,70,1) 77%,rgba(109,136,183,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(29,28,70,1) 0%,rgba(29,28,70,1) 77%,rgba(109,136,183,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d1c46', endColorstr='#6d88b7',GradientType=0 ); /* IE6-9 */
+}
+
+#candidatelogo {
+    margin-left:10%;
+	margin-top:37px;
+}    
+
+#navwrapper {
+    height:60px;
+    width:100%;
+    border:0px solid gray;
+    }
+
+.button {
+    height:40px;
+    width:120px;
+    border: 0px solid black;
+    background-color: #1D1C46;
+    color:white;
+    box-shadow: 5px 5px 5px #888
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:18px;
+    line-height:41px;
+}
+
+.button:hover {
+    background-color: #483D4C;
+    font-family:Garamond;
+}
+
+#bar {
+	margin-top:6px;
+	width:100%;
+	border: 3px solid #990C1C;
+	}
+
+#resume {
+    float:left;
+    margin-left:51%;
+    margin-top:18px;
+    text-align:center;
+}
+
+#gallery {
+    float:left;
+    margin-left:12px;
+    margin-top:18px;
+    text-align:center;
+}
+
+#reel {
+    float:left;
+    margin-left:12px;
+    margin-top:18px;
+    text-align:center;
+}
+
+#contact {
+    float:left;
+    margin-left:12px;
+    margin-top:18px;
+    text-align:center;
+}
+
+#mainwrapper {
+    height:650px;
+    width:100%;
+    border:0px solid gray;
+    margin-top:10px;
+}
+
+#candidatephoto {
+    margin-left:18%;
+    margin-top:25px;
+    float:left;
+	width:300px;
+}
+
+#maininfo {
+    width: 500px;
+    height: 600px;
+    border: 0px solid black;
+    float:left;
+    margin-left:35px;
+    margin-top:20px;
+    color:#101110;
+
+}
+
+#mainpara {
+	text-indent: 20px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:24px;
+	color: white;
+}
+
+#paidforby {
+	height:20px;
+	width:235px;
+	color:white;
+	border:1px solid white;
+	margin:0 auto;
+	padding-left:3px;
+}
+
+
+
+
